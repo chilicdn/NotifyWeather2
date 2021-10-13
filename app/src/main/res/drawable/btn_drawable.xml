@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false"><shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+
+            <!-- 设置背景色 -->
+            <solid android:color="#7457ED" />
+            <!-- 设置圆角 -->
+            <corners android:radius="105dip" />
+
+            <padding android:bottom="12dp" android:left="12dp" android:right="12dp" android:top="12dp" />
+            <!-- 设置边框线的宽度和颜色 -->
+
+        </shape></item>
+    <item android:state_pressed="true"><shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+
+            <!-- 设置背景色 -->
+            <solid android:color="#3F1FC4" />
+            <!-- 设置圆角 -->
+            <corners android:radius="105dip" />
+
+            <padding android:bottom="12dp" android:left="12dp" android:right="12dp" android:top="12dp" />
+            <!-- 设置边框线的宽度和颜色 -->
+
+        </shape></item>
+
+</selector>
