@@ -4,3 +4,7 @@
 支持Android10+
 
 修改部分实现
+
+天气API："http://wthrcdn.etouch.cn/weather_mini?citykey=101280101"
+
+默认城市广州，需要修改自行编译。
